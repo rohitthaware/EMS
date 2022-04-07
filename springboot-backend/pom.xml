@@ -40,7 +40,10 @@
 			<scope>runtime</scope>
 		</dependency>
 		
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6f6959aa9b01286f898a4743ee12c1ec9adac943
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
