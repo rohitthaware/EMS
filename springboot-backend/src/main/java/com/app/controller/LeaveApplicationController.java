@@ -1,4 +1,4 @@
-package net.javaguides.springboot.controller;
+package com.app.controller;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.*;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import net.javaguides.springboot.exception.ResourceNotFoundException;
-import net.javaguides.springboot.model.LeaveApplication;
-import net.javaguides.springboot.repository.LeaveRepository;
+import com.app.entities.LeaveApplication;
+import com.app.exception.ResourceNotFoundException;
+import com.app.repository.LeaveRepository;
 
 @CrossOrigin("*")
 @RestController

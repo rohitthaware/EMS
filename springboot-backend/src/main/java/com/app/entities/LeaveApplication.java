@@ -1,4 +1,4 @@
-package net.javaguides.springboot.model;
+package com.app.entities;
   
   import java.util.Date;
   

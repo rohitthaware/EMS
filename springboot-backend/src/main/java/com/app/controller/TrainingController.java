@@ -1,4 +1,4 @@
-package net.javaguides.springboot.controller;
+package com.app.controller;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import net.javaguides.springboot.model.Training;
-import net.javaguides.springboot.repository.TrainingRepository;
+import com.app.entities.Training;
+import com.app.repository.TrainingRepository;
 @CrossOrigin("*")
 @RestController
 @RequestMapping("/ems/v4")

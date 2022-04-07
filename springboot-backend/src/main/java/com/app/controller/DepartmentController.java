@@ -1,4 +1,4 @@
-package net.javaguides.springboot.controller;
+package com.app.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -7,9 +7,10 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import net.javaguides.springboot.exception.ResourceNotFoundException;
-import net.javaguides.springboot.model.*;
-import net.javaguides.springboot.repository.DepartmentRepository;
+
+import com.app.entities.*;
+import com.app.exception.ResourceNotFoundException;
+import com.app.repository.DepartmentRepository;
 
 
 @CrossOrigin("*")

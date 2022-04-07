@@ -1,9 +1,9 @@
-package net.javaguides.springboot.repository;
+package com.app.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import net.javaguides.springboot.model.Training;
+import com.app.entities.Training;
 
 @Repository
 public interface TrainingRepository extends JpaRepository<Training, Long>{

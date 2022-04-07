@@ -1,5 +1,5 @@
 
-package net.javaguides.springboot.model;
+package com.app.entities;
 
 import java.sql.Date;
 
@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "employees")
+@Table(name = "employee")
 public class Employee {
 	
 	@Id
