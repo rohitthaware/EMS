@@ -1,4 +1,4 @@
-package com.app.controller;
+package com.app.ems.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.app.entities.*;
-import com.app.exception.ResourceNotFoundException;
-import com.app.repository.DepartmentRepository;
+import com.app.ems.exception.ResourceNotFoundException;
+import com.app.ems.model.*;
+import com.app.ems.repository.DepartmentRepository;
 
 
 @CrossOrigin("*")

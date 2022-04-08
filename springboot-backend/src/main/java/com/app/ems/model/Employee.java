@@ -1,5 +1,5 @@
 
-package com.app.entities;
+package com.app.ems.model;
 
 import java.sql.Date;
 
@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "employee")
+@Table(name = "employees")
 public class Employee {
 	
 	@Id

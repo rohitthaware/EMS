@@ -1,4 +1,4 @@
-package com.app.entities;
+package com.app.ems.model;
   
   import java.util.Date;
   

@@ -1,4 +1,4 @@
-package com.app.controller;
+package com.app.ems.controller;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.*;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.app.entities.LeaveApplication;
-import com.app.exception.ResourceNotFoundException;
-import com.app.repository.LeaveRepository;
+import com.app.ems.exception.ResourceNotFoundException;
+import com.app.ems.model.LeaveApplication;
+import com.app.ems.repository.LeaveRepository;
 
 @CrossOrigin("*")
 @RestController
